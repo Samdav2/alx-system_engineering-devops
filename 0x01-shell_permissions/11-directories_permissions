@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 755 . / | chmod u+x . / | chmod u=rwxr,g=xr,o=x / | chmod g+x . / | chmod o+x . /
+chmod u=rwxr,g=xr,o=x . /
