@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u=wxr,g=xr hello | chmod u=wxr,g=xr olleh
+chmod u=wxr,g=xr hello | chmod u-r hello | chmod o-x hello | chmod u=wxr,g=xr olleh | chmod u-r olleh | chmod o-x olleh
