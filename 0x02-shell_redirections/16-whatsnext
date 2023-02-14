@@ -1,2 +1,2 @@
 #!/bin/bash
-sort < /etc/passwd | grep -i SED -A 3 root  
+grep -i "root" -A 3 /etc/passwd 
