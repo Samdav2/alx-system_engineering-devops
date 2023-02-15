@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$PATH" | wc -w
+printf "$PATH" | sort | wc -l
