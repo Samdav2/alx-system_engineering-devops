@@ -1,2 +1,2 @@
 #!/bin/bash
-print "$PATH" | wc -w
+printf "$PATH" | wc -w
