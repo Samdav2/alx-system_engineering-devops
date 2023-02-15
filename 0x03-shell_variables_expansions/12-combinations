@@ -1,2 +1,2 @@
 #!/bin/bash
-echo o{a..z}/0 | tr "/0" "\n" | grep -v "oo" | fmt
+echo a{a..z}/0 b{a..z}/0 c{a..z}/0 d{a..z}/0 e{a..z}/0 f{a..z}/0 g{a..z}/0 h{a..z}/0 i{a..z}/0 j{a..z}/0 k{a..z}/0 l{a..z}/0 m{a..z}/0 n{a..z}/0 | tr "/0" "\n" | grep -v "oo" | fmt
