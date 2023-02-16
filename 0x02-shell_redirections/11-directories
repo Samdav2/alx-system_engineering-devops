@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 ls -lRa . 
+=======
+ls -lRa | grep -i ./ | wc -l
+>>>>>>> b6d7cf3ef5911245496b8ad8f5d77f15e984736e
